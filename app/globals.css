@@ -17,5 +17,12 @@
 body {
   color: var(--foreground);
   background: var(--background);
+  height: 919px;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+@layer base{
+  h1{
+    @apply font-bold text-xl mb-3
+  }
 }
